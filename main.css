@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("breath.jpg");
+  background-size: contain;
+  background-position-y: -30px;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  position: relative;
+}
+.container {
+  margin: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: end;
+  align-items: end;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 30vw;
+  color: rgba(20, 2, 11, 1);
+  background-color: white;
+}
+.container div {
+  width: 100%;
+  text-align: end;
+  font-size: 12px;
+}
+
+.container h1 {
+  width: 100%;
+  text-align: end;
+}
+
+.vertical {
+  transform: rotate(270deg);
+  position: absolute;
+  top: 270px;
+  left: -30px;
+  font-size: 40px;
+}
+.photoAut {
+  position: absolute;
+  bottom: 8px;
+  left: 2px;
+  color: black;
+}
+span {
+  color: white;
+}
+
+.rosegold {
+  background: #ca2f8f;
+  font-family: "Roboto Mono", monospace;
+}

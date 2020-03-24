@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "BeKindHuman",
+  "description": "My first google extension ;)",
+  "version": "1.0",
+  "author": "MichalinaKa",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "128.png",
+    "default_title": "Have a good day"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+  "permissions": ["activeTab"]
+}
